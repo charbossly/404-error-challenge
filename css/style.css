@@ -87,7 +87,7 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
+/ article,
 aside,
 details,
 figcaption,
@@ -102,6 +102,7 @@ section {
 }
 body {
   line-height: 1;
+  overflow-x: scroll;
 }
 ol,
 ul {
@@ -149,7 +150,6 @@ header span {
 .left,
 .right {
   width: 50%;
-  overflow: hidden;
 }
 .left {
   text-align: center;
